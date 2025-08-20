@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug C++ (Codeforces)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/a.exe",
+      "args": [],
+      "cwd": "${fileDirname}",
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "preLaunchTask": "build and run cf"
+    }
+  ]
+}
